@@ -1,9 +1,6 @@
 import pygame
 from pygame.rect import Rect
-
-from constants import InitialCondition, Screen, Disease, SimColor
-
-
+ import numpy  # emmy
 class EpidemicStats:
     """
     Provides statistics and visualization about current state
